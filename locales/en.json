@@ -1,0 +1,36 @@
+{
+  "title": "tdude.co status",
+  "description": "Status Page For All tdude.co Services",
+  "systems": {
+    "items": {
+      "website": {
+        "title": "Website",
+        "description": "The tdude.co website"
+      },
+      "matrix": {
+        "title": "Matrix Home Server",
+        "description": "The nerdsin.space Matrix Home Server"
+      },
+      "minecraft": {
+        "title": "Minecraft Servers",
+        "description": "Minecraft servers including \"Macrochasm\""
+      },
+      "plex": {
+        "title": "Plex Server",
+        "description": "The Plex video streaming server"
+      },
+      "nhack-industries": {
+        "title": "Nhack Industries",
+        "description": "Nhack Industries services such as the Jenkins server and ElasticSearch"
+      },
+      "pomf": {
+        "title": "Pomf",
+        "description": "The pomf.tdude.co file hosting service"
+      },
+      "guacamole": {
+        "title": "Virtual Desktop Infrastructure",
+        "description": "The Guacamole remote desktop portal and backend servers"
+      }
+    }
+  }
+}

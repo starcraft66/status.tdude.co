@@ -1,0 +1,22 @@
+title = "tdude.co service status"
+name = "tdude.co_status"
+description = "Status Page For All tdude.co Services"
+defaultLocale = "en"
+
+[[locales]]
+code = "en"
+iso = "en-US"
+name = "English"
+file = "en.json"
+
+[content]
+frontMatterFormat = "toml"
+systems = [
+  "website",
+  "matrix",
+  "minecraft",
+  "plex",
+  "nhack-industries",
+  "pomf",
+  "guacamole"
+]
