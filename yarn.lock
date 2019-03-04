@@ -1249,25 +1249,25 @@
     mustache "^2.3.0"
     stack-trace "0.0.10"
 
-"@statusfy/cli@^0.3.0-alpha.1":
-  version "0.3.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@statusfy/cli/-/cli-0.3.0-alpha.1.tgz#41a26a4c27352d3b646db26412d94cc89ca59c4d"
-  integrity sha512-S+hMuIIQoS6rt3lSuJMRyAOtea+kVu0ZUQA50ruapo4zxdg+rGKxtmK7lVVekZ206dyjZdSCXY87BYyUhVuMEA==
+"@statusfy/cli@^0.3.0-alpha.2":
+  version "0.3.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/@statusfy/cli/-/cli-0.3.0-alpha.4.tgz#dc28023c4f7644e9534fa4c07ff8cfc98a169929"
+  integrity sha512-9mBbFfCsd0OTEVjYBvp7g79oXMgDvtpQgjgu5zceXFDbVttyYbJW+Cxy6umwQmvX8gJvbVdKbVJWo8u7nphcLw==
   dependencies:
     commander "^2.15.1"
     semver "^5.5.0"
 
-"@statusfy/common@^0.3.0-alpha.1":
-  version "0.3.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@statusfy/common/-/common-0.3.0-alpha.1.tgz#c9f03807053dedc858032c2f4bfb01151224e936"
-  integrity sha512-6Ky33VmChiDYk51qZ9yKSA/r4q244Rw4BQyN0JU4NigHrXBl7uTSDpVvu1IM5abkmHw9Kbw9LEsRM+p3oANrXw==
+"@statusfy/common@^0.3.0-alpha.4":
+  version "0.3.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/@statusfy/common/-/common-0.3.0-alpha.4.tgz#fda4cbaf0dace0af6680a8e15d991bb472d5b26a"
+  integrity sha512-bPPYvrLdR5Tq3bSrPsPRicjepFgjDHH2McUo82RvtYfbLJg55/kAhHA5LmkDLG3KpeKIZCetrdBShVLtM0vzPg==
   dependencies:
-    autoprefixer "^9.1.5"
+    autoprefixer "^9.4.9"
     chalk "^2.3.2"
-    consola "^2.0.0"
+    consola "^2.5.6"
     css-mqpacker "^7.0.0"
     cssnano "^4.1.4"
-    esm "^3.0.83"
+    esm "^3.2.6"
     fs-extra "^7.0.0"
     gray-matter "^4.0.1"
     hash-sum "^1.0.2"
@@ -1275,7 +1275,7 @@
     moment "^2.22.2"
     postcss-combine-duplicated-selectors "^7.0.0"
     postcss-import "^12.0.0"
-    postcss-nested "^4.1.0"
+    postcss-nested "^4.1.2"
     postcss-preset-env "^6.1.1"
     slugify "^1.3.1"
     tailwindcss "^0.7.0"
@@ -1285,22 +1285,22 @@
     validator "^10.8.0"
     yaml "^1.0.0"
 
-"@statusfy/core@^0.3.0-alpha.1":
-  version "0.3.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@statusfy/core/-/core-0.3.0-alpha.1.tgz#aa12d994774cfff65f70a6527c0a9f3076dc9839"
-  integrity sha512-rLAtXrQkgvvFhXS10llDXETHC5pcoOo+kmSvmjWhdKacvgES9x3Agqa2X1EscQStwwJQGZWdg6P1L8elB6hD2w==
+"@statusfy/core@^0.3.0-alpha.2":
+  version "0.3.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/@statusfy/core/-/core-0.3.0-alpha.4.tgz#286032508e29991717dec84b2a53d4cf6af59d5d"
+  integrity sha512-qvFWXJI5ywNnQncGXwseELSE5ANdWiukFOngjQG7iOjp+aXQdXRR1gMJDDNZTTdTXa70efcNJueUyMN+Jy4r+g==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.5"
     "@nuxtjs/axios" "^5.3.3"
     "@nuxtjs/pwa" "^2.5.0"
-    "@statusfy/common" "^0.3.0-alpha.1"
-    "@statusfy/markdown" "^0.3.0-alpha.1"
+    "@statusfy/common" "^0.3.0-alpha.4"
+    "@statusfy/markdown" "^0.3.0-alpha.4"
     body-parser "^1.18.3"
     browser-sync "^2.26.0"
     cors "^2.8.4"
     cross-env "^5.2.0"
     cross-spawn "^6.0.5"
-    dayjs "^1.7.7"
+    dayjs "^1.8.8"
     express "^4.15.3"
     feed "^2.0.1"
     helmet "^3.14.0"
@@ -1314,10 +1314,10 @@
     lodash.sortby "^4.7.0"
     lru-cache "5.1.1"
     moment "^2.22.2"
-    moment-range "^4.0.1"
+    moment-range "^4.0.2"
     nodemon "^1.18.4"
     nuxt "^2.4.0"
-    nuxt-i18n "^5.4.0"
+    nuxt-i18n "^5.8.4"
     opener "^1.5.0"
     portfinder "^1.0.17"
     sitemap "^2.1.0"
@@ -1328,17 +1328,17 @@
     vue-multianalytics "1.11.2"
     vue-svgicon "^3.2.0"
 
-"@statusfy/editor@^0.3.0-alpha.1":
-  version "0.3.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@statusfy/editor/-/editor-0.3.0-alpha.1.tgz#8a8e84f4e781ed6509d185f0141cefc0b6186951"
-  integrity sha512-98QHb2fqLrBbC5iZp/cLZ5wsTO+TkiqD+ZVScSJHqLDEpxNWSnIlpwjyd7IafiIs/8ZAhrQmae9bOaVZ+VTO8A==
+"@statusfy/editor@^0.3.0-alpha.2":
+  version "0.3.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/@statusfy/editor/-/editor-0.3.0-alpha.4.tgz#096e31f310790582d39c412aac40302b0dcbbce9"
+  integrity sha512-zzvEZ7roT39cZ8KsavKF15R4vbnsqJFbOkqGHehC6DHEZUMjtBorGLZngkXoYsDFEwvDnDMMezn5TgG+yho8CQ==
 
-"@statusfy/markdown@^0.3.0-alpha.1":
-  version "0.3.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@statusfy/markdown/-/markdown-0.3.0-alpha.1.tgz#0eac11bc92148579fa1bd27e534c821fc9942c2f"
-  integrity sha512-wH1eJYNdcmCjyxzOrzXRW0/OPDYrDM1+PQRdumg4SPc9RMTcVToQ4M59eEh9ULzW+dUOiatoVbtuE5VIXs/Svw==
+"@statusfy/markdown@^0.3.0-alpha.4":
+  version "0.3.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/@statusfy/markdown/-/markdown-0.3.0-alpha.4.tgz#d756954fa5d0ea4f9e6abd5176dd3775de49af0a"
+  integrity sha512-gWyxVdIBdDtxwi5tERXOPSzDRCPXReAZJRrjX5vIUfLau6NbReWSJCM2S3K1YkZxW5r/qnuVJSd3q7/JB9vn7g==
   dependencies:
-    "@statusfy/common" "^0.3.0-alpha.1"
+    "@statusfy/common" "^0.3.0-alpha.4"
     markdown-it "^8.4.1"
     markdown-it-container "^2.0.0"
     markdown-it-emoji "^1.4.0"
@@ -1913,7 +1913,7 @@ atob@^2.1.1:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-autoprefixer@^9.0.0, autoprefixer@^9.1.5, autoprefixer@^9.4.5, autoprefixer@^9.4.9:
+autoprefixer@^9.0.0, autoprefixer@^9.4.5, autoprefixer@^9.4.9:
   version "9.4.9"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-9.4.9.tgz#0d3eb86bc1d1228551abcf55220d6fd246b6cb31"
   integrity sha512-OyUl7KvbGBoFQbGQu51hMywz1aaVeud/6uX8r1R1DNcqFvqGUUy6+BDHnAZE8s5t5JyEObaSw+O1DpAdjAmLuw==
@@ -2827,7 +2827,7 @@ connect@3.6.6, connect@^3.6.6:
     parseurl "~1.3.2"
     utils-merge "1.0.1"
 
-consola@^2.0.0, consola@^2.0.0-1, consola@^2.3.0, consola@^2.3.2, consola@^2.5.6:
+consola@^2.0.0-1, consola@^2.3.0, consola@^2.3.2, consola@^2.5.6:
   version "2.5.6"
   resolved "https://registry.yarnpkg.com/consola/-/consola-2.5.6.tgz#5ce14dbaf6f5b589c8a258ef80ed97b752fa57d5"
   integrity sha512-DN0j6ewiNWkT09G3ZoyyzN3pSYrjxWcx49+mHu+oDI5dvW5vzmyuzYsqGS79+yQserH9ymJQbGzeqUejfssr8w==
@@ -3285,7 +3285,7 @@ date-now@^0.1.4:
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
   integrity sha1-6vQ5/U1ISK105cx9vvIAZyueNFs=
 
-dayjs@^1.7.7:
+dayjs@^1.8.8:
   version "1.8.8"
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.8.tgz#81c81a8bb2488ef859f6c9bead9b62d649072bfd"
   integrity sha512-qBY3kVAVJMxzS4e7DAwZZ/SSiO/DBXbvc/qqbyf1FbsZrxBq81QPdUEWhiPu8Fragf5RfHsLwtH8kCGwKL4qLQ==
@@ -3770,10 +3770,15 @@ eslint-scope@^4.0.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-esm@^3.0.83, esm@^3.2.3:
+esm@^3.2.3:
   version "3.2.9"
   resolved "https://registry.yarnpkg.com/esm/-/esm-3.2.9.tgz#9dca653e3b39f89c3c65c5e84cebfa4af345c10d"
   integrity sha512-mATFs9dpCjnEyNv27z29UNDmJmBBX8zMdcFip7aIOrBRTpLs8SA+6Ek1QtsWfvecAJVeZy+X5D3Z6xZVtUvYdg==
+
+esm@^3.2.6:
+  version "3.2.10"
+  resolved "https://registry.yarnpkg.com/esm/-/esm-3.2.10.tgz#fea61120e0d89b87897756f506f169c2fb0ca78e"
+  integrity sha512-r6v4kFfezz5/Qo6Q5ThaNPPUi7a2E3J4ZWxFuohhxJRAa6X7hg6Ca7GRPaixsi5ALcokhif/04Ys4zAxab4Edw==
 
 esprima@^4.0.0:
   version "4.0.1"
@@ -6233,7 +6238,7 @@ mkdirp@0.5.1, mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkdirp@
   dependencies:
     minimist "0.0.8"
 
-moment-range@^4.0.1:
+moment-range@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/moment-range/-/moment-range-4.0.2.tgz#f7c3863df2a1ed7fd1822ba5a7bcf53a78701be9"
   integrity sha512-n8sceWwSTjmz++nFHzeNEUsYtDqjgXgcOBzsHi+BoXQU2FW+eU92LUaK8gqOiSu5PG57Q9sYj1Fz4LRDj4FtKA==
@@ -6534,7 +6539,7 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt-i18n@^5.4.0:
+nuxt-i18n@^5.8.4:
   version "5.8.5"
   resolved "https://registry.yarnpkg.com/nuxt-i18n/-/nuxt-i18n-5.8.5.tgz#9ae047113aae927565bda816594d04b8e8b106d7"
   integrity sha512-kvykf57EctValhPcvOBTLgVUlegDVqjlBhmSF1F1JQGDNT8FQK/u9cohnk2FQ/nBKLaFJbz1KUGNKXL/QvejVg==
@@ -7489,7 +7494,7 @@ postcss-modules-values@^2.0.0:
     icss-replace-symbols "^1.1.0"
     postcss "^7.0.6"
 
-postcss-nested@^4.1.0, postcss-nested@^4.1.1:
+postcss-nested@^4.1.1, postcss-nested@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/postcss-nested/-/postcss-nested-4.1.2.tgz#8e0570f736bfb4be5136e31901bf2380b819a561"
   integrity sha512-9bQFr2TezohU3KRSu9f6sfecXmf/x6RXDedl8CHF6fyuyVW7UqgNMRdWMHZQWuFY6Xqs2NYk+Fj4Z4vSOf7PQg==
@@ -8948,15 +8953,15 @@ statuses@~1.4.0:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.4.0.tgz#bb73d446da2796106efcc1b601a253d6c46bd087"
   integrity sha512-zhSCtt8v2NDrRlPQpCNtw/heZLtfUDqxBM1udqikb/Hbk52LK4nQSwr10u77iopCW5LsyHpuXS0GnEc48mLeew==
 
-statusfy@^0.3.0-alpha.1:
-  version "0.3.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/statusfy/-/statusfy-0.3.0-alpha.1.tgz#f9d63c45838f2f617d754891fc98e925c1124e2a"
-  integrity sha512-MZbjSjdUCY6VDMD0p7nVdb48oc8jwW5JWrO6Q5qtCXy/hxlRmN8eb0Ko9Elr8OXGgKOYhEk6HF73x4U/ZYj4DQ==
+statusfy@0.3.0-alpha.2:
+  version "0.3.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/statusfy/-/statusfy-0.3.0-alpha.2.tgz#00303a2556cef38e2995a6461ab597bf776f0fcb"
+  integrity sha512-/FReFci1DK3riVD/JADUDrSOljc2Xlq354I8NvmnPKkWxcCko57T2NJNO67OjS1XcMREO7sPEbjCp9xkaNA0rA==
   dependencies:
     "@nuxtjs/opencollective" "^0.2.0"
-    "@statusfy/cli" "^0.3.0-alpha.1"
-    "@statusfy/core" "^0.3.0-alpha.1"
-    "@statusfy/editor" "^0.3.0-alpha.1"
+    "@statusfy/cli" "^0.3.0-alpha.2"
+    "@statusfy/core" "^0.3.0-alpha.2"
+    "@statusfy/editor" "^0.3.0-alpha.2"
 
 std-env@^2.2.1:
   version "2.2.1"
