@@ -5,7 +5,7 @@ severity = "under-maintenance"
 scheduled = "2019-03-30T00:00:00.000Z"
 duration = 1440
 affectedsystems = ["matrix"]
-resolved = false
+resolved = true
 ---
 The matrix server will be down for a while some time this weekend while I migrate it to new hardware.
 
